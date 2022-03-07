@@ -1,0 +1,15 @@
+{
+
+  "scripts": {
+    "run-cucumber": "cucumber-js src/features/**/**/*.feature --require-module ts-node/register --require src/steps/**/**/*.ts"
+  },
+  
+  "dependencies": {
+    "@playwright/test": "^1.19.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
