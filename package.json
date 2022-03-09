@@ -1,7 +1,7 @@
 {
 
   "scripts": {
-    "run-cucumber": "cucumber-js src/features/**/**/*.feature --require-module ts-node/register --require src/steps/**/**/*.ts"
+    "cucumber": "cucumber-js src/features/**/**/*.feature --require-module ts-node/register --require src/steps/**/**/*.ts"
   },
   
   "dependencies": {
