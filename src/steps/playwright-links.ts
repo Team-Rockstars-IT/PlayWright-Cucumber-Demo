@@ -27,7 +27,7 @@ Given('User opens Playwright tool url:{string}', async function (url: string) {
     await global.page.goto(url);
   });
 
-When('website contains menu links {string}', async function (link : string) {
+When('website contains menu link {string}', async function (link : string) {
     // Write code here that turns the phrase above into concrete actions
     const lnkAPI = await global.page.locator('a:has-text(' + link +')');
     expect(lnkAPI).toHaveText('API');
